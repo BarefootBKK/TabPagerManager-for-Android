@@ -6,7 +6,7 @@
   
 ## Step 2. How to use it ?
 
-- ***General***
+### ***General***
 ```
 TabPagerManager.with(fragmentManager)
                 .setTabPager(tabLayout, viewPager)
@@ -43,6 +43,5 @@ TabPagerManager.with(fragmentManager)
                 .setIndicatorLineMode(TabPagerManager.EQUAL_TAB_FILL)
                 .commit();
   ```
-                .commit();
   
   
