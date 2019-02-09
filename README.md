@@ -20,7 +20,7 @@ Notice: replace the "new Fragment()" above with your own fragment.
 
 ### ***More***
 
-  - **Defualt Indicator Mode**
+  - **Defualt indicator mode**
   
     The default indicator line mode is ***EQUAL_TEXT***, which makes your tab looks like following :
   
