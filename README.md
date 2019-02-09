@@ -21,13 +21,13 @@ TabPagerManager.with(fragmentManager)
   
     The default indicator line mode is ***EQUAL_TEXT***, which makes your tab looks like following :
   
-      <img src="https://camo.githubusercontent.com/f20f015ed02f7ec3a86ff4159e9bd24249b6897e/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937323938373178323839303137333735332e706e67" width="350" alt="EQUAL_TEXT" />
+      > <img src="https://camo.githubusercontent.com/f20f015ed02f7ec3a86ff4159e9bd24249b6897e/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937323938373178323839303137333735332e706e67" width="350" alt="EQUAL_TEXT" />
   
   - **Other modes**
   
       *EQUAL_TAB_CENTER*
   
-      <img src="https://camo.githubusercontent.com/68022916b8776dd9f3d7f332cce93da5a2c360df/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333034373578323839303137343039342e6a7067" width="350" alt="EQUAL_TAB_CENTER" />
+      > <img src="https://camo.githubusercontent.com/68022916b8776dd9f3d7f332cce93da5a2c360df/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333034373578323839303137343039342e6a7067" width="350" alt="EQUAL_TAB_CENTER" />
   
       *EQUAL_TAB_FILL*
     
