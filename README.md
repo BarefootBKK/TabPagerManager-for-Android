@@ -47,7 +47,7 @@ TabPagerManager.with(fragmentManager)
   
   ### ***Advanced***
   
-  - **Set tabs' interval:
+  - **Set tabs' interval:**
     
     This function only works on mode *EQUAL_TEXT*.
     
@@ -57,14 +57,14 @@ TabPagerManager.with(fragmentManager)
     
   - **Set selected tab**
   
-  use function: ```add(String tabTitle, Fragment fragment, isSelected)```
+    use function: ```add(String tabTitle, Fragment fragment, isSelected)```
   
-  ```
-  TabPagerManager.with(fragmentManager)
-                .setTabPager(tabLayout, viewPager)
-                .add("tabName_1", new Fragment())
-                .add("tabName_2", new Fragment(), true)
-                .commit();
+    ```
+    TabPagerManager.with(fragmentManager)
+                  .setTabPager(tabLayout, viewPager)
+                  .add("tabName_1", new Fragment())
+                  .add("tabName_2", new Fragment(), true)
+                  .commit();
     ```
     
   - **Also, you can initialize your tabLayout and viewPager at first
