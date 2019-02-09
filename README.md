@@ -1,7 +1,11 @@
 # TabPagerManager-for-Android
 
 ## Step 1. Download
-Download the ~~~TabPagerManager.java~~~ file and copy it to your Android project
+Download the 
+~~~
+TabPagerManager.java
+~~~ 
+file and copy it to your Android project
 ## Step 2. How to use it ?
 - ***General***
 ~~~
