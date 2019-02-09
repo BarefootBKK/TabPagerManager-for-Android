@@ -14,6 +14,10 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * author BarefootBKK
+ * Date 2019/02/10
+ */
 public class TabPagerManager {
     public static final int EQUAL_TEXT = 0;
     public static final int EQUAL_TAB_CENTER = 1;
@@ -86,11 +90,6 @@ public class TabPagerManager {
                 return this;
             }
 
-            /**
-             * 设置tab间距，只有在EQUAL_TEXT模式才会生效
-             * 默认值为20
-             * @param tabInterval
-             */
             public TabPagerOption setTabInterval(int tabInterval) {
                 this.tabInterval = tabInterval;
                 return this;
@@ -111,9 +110,6 @@ public class TabPagerManager {
                 return this;
             }
 
-            /**
-             * 提交
-             */
             public void commit() {
                 if (isInitialized && getTabCount() > 0 && fragmentManager != null) {
                     fragmentViewPagerAdapter = new FragmentViewPagerAdapter(fragmentManager);
@@ -133,7 +129,6 @@ public class TabPagerManager {
                     @Override
                     public void run() {
                         try {
-                            //拿到tabLayout的slidingTabIndicator属性
                             Field tabIndicator;
                             if (Build.VERSION.SDK_INT < 28) {
                                 tabIndicator = tabLayout.getClass().getDeclaredField("slidingTabIndicator");
@@ -155,14 +150,12 @@ public class TabPagerManager {
                                 mTextViewField.setAccessible(true);
                                 TextView mTextView = (TextView) mTextViewField.get(tabView);
                                 tabView.setPadding(0, 0, 0, 0);
-                                //字多宽线就多宽，需要测量mTextView的宽度
                                 int width = 0;
                                 width = mTextView.getWidth();
                                 if (width == 0) {
                                     mTextView.measure(0, 0);
                                     width = mTextView.getMeasuredWidth();
                                 }
-                                //设置tab左右间距为10dp 这个间距可根据自己需求更改
                                 LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) tabView.getLayoutParams();
                                 params.width = width ;
                                 params.leftMargin = dp10;
@@ -209,11 +202,6 @@ public class TabPagerManager {
             return titleList.get(position);
         }
 
-        /**
-         * 设置fragmentList和titles
-         * @param fragmentList
-         * @param titleList
-         */
         public void setAdapterBasicList(List<Fragment> fragmentList, List<String> titleList) {
             this.fragmentList = fragmentList;
             this.titleList = titleList;
