@@ -1,5 +1,3 @@
-package com.example.comicapp.managers;
-
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.os.Build;
