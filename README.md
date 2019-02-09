@@ -16,7 +16,7 @@ TabPagerManager.with(fragmentManager)
                 .add("tabName_2", new Fragment())
                 .commit();
 ```
-Notice: replace your own fragment with "new Fragment()" above.
+Notice: replace the "new Fragment()" above with your own fragment.
 
 ### ***More***
 
