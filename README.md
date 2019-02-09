@@ -4,7 +4,9 @@
 
   Download the ```TabPagerManager.java``` file and copy it to your Android project.
   
+  
 ## Step 2. How to use it ?
+
 
 ### ***General***
 ```
@@ -14,6 +16,7 @@ TabPagerManager.with(fragmentManager)
                 .add("tabName_2", new Fragment())
                 .commit();
 ```
+
 
 ### ***More***
 
@@ -45,11 +48,12 @@ TabPagerManager.with(fragmentManager)
                 .commit();
   ```
   
+  
   ### ***Advanced***
   
-  - **Set tabs' interval:**
+  - **Set tabs' interval**
     
-    This function only works on mode *EQUAL_TEXT*.
+    This function only works on mode  *EQUAL_TEXT*.
     
     ```
     setTabInterval(20)
@@ -57,7 +61,7 @@ TabPagerManager.with(fragmentManager)
     
   - **Set selected tab**
   
-    use function: ```add(String tabTitle, Fragment fragment, Boolean isSelected)```
+    Use function: ```add(String tabTitle, Fragment fragment, Boolean isSelected)```
   
     ```
     TabPagerManager.with(fragmentManager)
@@ -81,4 +85,4 @@ TabPagerManager.with(fragmentManager)
                   .setTabPager(tabLayout, viewPager)
                   .add("tabName_1", new Fragment())
                   .commit();
-    ``
+    ```
