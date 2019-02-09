@@ -58,6 +58,9 @@
     This function only works on mode  *EQUAL_TEXT*.
     
     ```
+    setTabInterval(int tabInterval)
+    
+    e.g.
     setTabInterval(20)
     ```
     
