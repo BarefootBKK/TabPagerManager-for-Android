@@ -16,7 +16,7 @@ TabPagerManager.with(fragmentManager)
                 .add("tabName_2", new Fragment())
                 .commit();
 ```
-
+Notice: replace your own fragment with "new Fragment()" above.
 
 ### ***More***
 
@@ -61,7 +61,7 @@ TabPagerManager.with(fragmentManager)
     
   - **Set selected tab**
   
-    Use function: ```add(String tabTitle, Fragment fragment, Boolean isSelected)```
+    Use function: ```add(String tabTitle, Fragment fragment, Boolean isSelected)```.
   
     ```
     TabPagerManager.with(fragmentManager)
