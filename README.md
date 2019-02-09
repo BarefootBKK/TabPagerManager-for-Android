@@ -4,7 +4,7 @@
 
 ## Step 1. Download
 
-  Download the ```TabPagerManager.java``` file and copy it to your Android project.
+  Download the ```TabPagerManager.java```([click here](https://codeload.github.com/BarefootBKK/TabPagerManager-for-Android/zip/master)) file and copy it to your Android project.
   
   
 ## Step 2. How to use it ?
