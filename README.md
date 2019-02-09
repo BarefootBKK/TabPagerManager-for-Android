@@ -9,6 +9,7 @@
 
 
 ### ***General***
+
 ```
 TabPagerManager.with(fragmentManager)
                 .setTabPager(tabLayout, viewPager)
@@ -39,14 +40,14 @@ Notice: replace the "new Fragment()" above with your own fragment.
   
  - **Use it in your code**
   
-  ```
-  TabPagerManager.with(fragmentManager)
-                .setTabPager(tabLayout, viewPager)
-                .add("tabName_1", new Fragment())
-                .add("tabName_2", new Fragment())
-                .setIndicatorLineMode(TabPagerManager.EQUAL_TAB_FILL)
-                .commit();
-  ```
+    ```
+    TabPagerManager.with(fragmentManager)
+                    .setTabPager(tabLayout, viewPager)
+                    .add("tabName_1", new Fragment())
+                    .add("tabName_2", new Fragment())
+                    .setIndicatorLineMode(TabPagerManager.EQUAL_TAB_FILL)
+                    .commit();
+    ```
   
   
   ### ***Advanced***
@@ -65,10 +66,10 @@ Notice: replace the "new Fragment()" above with your own fragment.
   
     ```
     TabPagerManager.with(fragmentManager)
-                  .setTabPager(tabLayout, viewPager)
-                  .add("tabName_1", new Fragment())
-                  .add("tabName_2", new Fragment(), true)
-                  .commit();
+                    .setTabPager(tabLayout, viewPager)
+                    .add("tabName_1", new Fragment())
+                    .add("tabName_2", new Fragment(), true)
+                    .commit();
     ```
     
   - **Also, you can initialize your tabLayout and viewPager at first**
@@ -86,7 +87,7 @@ Notice: replace the "new Fragment()" above with your own fragment.
     
     ```
     TabPagerManager.with(fragmentManager)
-                  .setTabPager(tabLayout, viewPager)
-                  .add("tabName_1", new Fragment())
-                  .commit();
+                    .setTabPager(tabLayout, viewPager)
+                    .add("tabName_1", new Fragment())
+                    .commit();
     ```
