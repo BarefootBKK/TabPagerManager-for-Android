@@ -10,14 +10,15 @@
 
 ### ***General***
 
-  ```
-  TabPagerManager.with(fragmentManager)
-                  .setTabPager(tabLayout, viewPager)
-                  .add("tabName_1", new Fragment())
-                  .add("tabName_2", new Fragment())
-                  .commit();
-  ```
-  Notice: replace the "new Fragment()" above with your own fragment.
+    ```
+    TabPagerManager.with(fragmentManager)
+                    .setTabPager(tabLayout, viewPager)
+                    .add("tabName_1", new Fragment())
+                    .add("tabName_2", new Fragment())
+                    .commit();
+    ```
+    Notice: replace the "new Fragment()" above with your own fragment.
+
 
 ### ***More***
 
@@ -29,11 +30,11 @@
   
   - **Other modes**
   
-      - *EQUAL_TAB_CENTER*
+    - *EQUAL_TAB_CENTER*
   
       > <img src="https://camo.githubusercontent.com/68022916b8776dd9f3d7f332cce93da5a2c360df/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333034373578323839303137343039342e6a7067" width="350" alt="EQUAL_TAB_CENTER" />
   
-      - *EQUAL_TAB_FILL*
+    - *EQUAL_TAB_FILL*
     
       > <img src="https://camo.githubusercontent.com/f3c4dacabc4d8eb49f38dbfec2020be0cb6725fe/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333035393178323839303137343039342e706e67" width="350" alt="EQUAL_TAB_FILL" />
   
