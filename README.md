@@ -10,14 +10,14 @@
 
 ### ***General***
 
-```
-TabPagerManager.with(fragmentManager)
-                .setTabPager(tabLayout, viewPager)
-                .add("tabName_1", new Fragment())
-                .add("tabName_2", new Fragment())
-                .commit();
-```
-Notice: replace the "new Fragment()" above with your own fragment.
+  ```
+  TabPagerManager.with(fragmentManager)
+                  .setTabPager(tabLayout, viewPager)
+                  .add("tabName_1", new Fragment())
+                  .add("tabName_2", new Fragment())
+                  .commit();
+  ```
+  Notice: replace the "new Fragment()" above with your own fragment.
 
 ### ***More***
 
