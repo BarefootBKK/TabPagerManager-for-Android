@@ -17,7 +17,7 @@ TabPagerManager.with(fragmentManager)
 
 ### ***More***
 
-  - **Defulat Indicator Mode**
+  - **Defualt Indicator Mode**
   
     The default indicator line mode is ***EQUAL_TEXT***, which makes your tab looks like following :
   
