@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * author BarefootBKK
- * Date 2019/02/10
+ * date 2019/02/10
  */
 public class TabPagerManager {
     public static final int EQUAL_TEXT = 0;
