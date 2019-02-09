@@ -57,7 +57,7 @@ TabPagerManager.with(fragmentManager)
     
   - **Set selected tab**
   
-    use function: ```add(String tabTitle, Fragment fragment, isSelected)```
+    use function: ```add(String tabTitle, Fragment fragment, Boolean isSelected)```
   
     ```
     TabPagerManager.with(fragmentManager)
@@ -75,9 +75,10 @@ TabPagerManager.with(fragmentManager)
     // Initialize
     tabLayout.set...
     viewPager.set...
+    
     // Bind with TabPagerManager
     TabPagerManager.with(fragmentManager)
-                .setTabPager(tabLayout, viewPager)
-                .add("tabName_1", new Fragment())
-                .commit();
-    
+                  .setTabPager(tabLayout, viewPager)
+                  .add("tabName_1", new Fragment())
+                  .commit();
+    ``
