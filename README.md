@@ -21,16 +21,28 @@ TabPagerManager.with(fragmentManager)
   
   - **EQUAL_TEXT**
   
-  <img src="https://camo.githubusercontent.com/f20f015ed02f7ec3a86ff4159e9bd24249b6897e/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937323938373178323839303137333735332e706e67" width="400" alt="EQUAL_TEXT" />
+  <img src="https://camo.githubusercontent.com/f20f015ed02f7ec3a86ff4159e9bd24249b6897e/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937323938373178323839303137333735332e706e67" width="350" alt="EQUAL_TEXT" />
 
     Also, you can have more choice:
   
   - **EQUAL_TAB_CENTER**
   
-  <img src="https://camo.githubusercontent.com/68022916b8776dd9f3d7f332cce93da5a2c360df/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333034373578323839303137343039342e6a7067" width="400" alt="EQUAL_TAB_CENTER" />
+  <img src="https://camo.githubusercontent.com/68022916b8776dd9f3d7f332cce93da5a2c360df/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333034373578323839303137343039342e6a7067" width="350" alt="EQUAL_TAB_CENTER" />
   
   - **EQUAL_TAB_FILL**
   
-  <img src="https://camo.githubusercontent.com/f3c4dacabc4d8eb49f38dbfec2020be0cb6725fe/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333035393178323839303137343039342e706e67" width="400" alt="EQUAL_TAB_FILL" />
+  <img src="https://camo.githubusercontent.com/f3c4dacabc4d8eb49f38dbfec2020be0cb6725fe/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333035393178323839303137343039342e706e67" width="350" alt="EQUAL_TAB_FILL" />
+  
+  ***use it in your code***
+  
+  ```
+  TabPagerManager.with(fragmentManager)
+                .setTabPager(tabLayout, viewPager)
+                .add("tabName_1", new Fragment())
+                .add("tabName_2", new Fragment())
+                .setIndicatorLineMode(TabPagerManager.EQUAL_TAB_FILL)
+                .commit();
+  ```
+                .commit();
   
   
