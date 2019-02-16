@@ -14,10 +14,10 @@
 
   ```
   TabPagerManager.with(fragmentManager)
-                  .setTabPager(tabLayout, viewPager)
-                  .add("tabName_1", new Fragment())
-                  .add("tabName_2", new Fragment())
-                  .commit();
+                 .setTabPager(tabLayout, viewPager)
+                 .add("tabName_1", new Fragment())
+                 .add("tabName_2", new Fragment())
+                 .commit();
   ```
   Notice: 
   
@@ -51,11 +51,11 @@
   
     ```
     TabPagerManager.with(fragmentManager)
-                    .setTabPager(tabLayout, viewPager)
-                    .add("tabName_1", new Fragment())
-                    .add("tabName_2", new Fragment())
-                    .setIndicatorLineMode(TabPagerManager.EQUAL_TAB_FILL)
-                    .commit();
+                   .setTabPager(tabLayout, viewPager)
+                   .add("tabName_1", new Fragment())
+                   .add("tabName_2", new Fragment())
+                   .setIndicatorLineMode(TabPagerManager.EQUAL_TAB_FILL)
+                   .commit();
     ```
   
   
@@ -78,10 +78,10 @@
   
     ```
     TabPagerManager.with(fragmentManager)
-                    .setTabPager(tabLayout, viewPager)
-                    .add("tabName_1", new Fragment())
-                    .add("tabName_2", new Fragment(), true)
-                    .commit();
+                   .setTabPager(tabLayout, viewPager)
+                   .add("tabName_1", new Fragment())
+                   .add("tabName_2", new Fragment(), true)
+                   .commit();
     ```
     
   - **Also, you can initialize your tabLayout and viewPager before using "TabPagerManager".**
@@ -99,7 +99,7 @@
     
     ```
     TabPagerManager.with(fragmentManager)
-                    .setTabPager(tabLayout, viewPager)
-                    .add("tabName", new Fragment())
-                    .commit();
+                   .setTabPager(tabLayout, viewPager)
+                   .add("tabName", new Fragment())
+                   .commit();
     ```
