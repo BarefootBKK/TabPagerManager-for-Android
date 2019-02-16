@@ -84,7 +84,7 @@
                     .commit();
     ```
     
-  - **Also, you can initialize your tabLayout and viewPager before using "TabPagerManager"**
+  - **Also, you can initialize your tabLayout and viewPager before using "TabPagerManager".**
   
     e.g.
     
