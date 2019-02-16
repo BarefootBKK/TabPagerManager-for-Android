@@ -19,7 +19,13 @@
                   .add("tabName_2", new Fragment())
                   .commit();
   ```
-  Notice: replace the "new Fragment()" above with your own fragment.
+  Notice: 
+  
+  - replace the "new Fragment()" above with your own fragment.
+  
+  - If you're in activity, use getSupportFragmentManager() to be the target fragmentManager. 
+  
+  - If you're in fragment, use getChildFragmentManager().
 
 
 ### ***More***
