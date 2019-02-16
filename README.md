@@ -21,7 +21,7 @@
   ```
   Notice: 
   
-  - replace the "new Fragment()" above with your own fragment.
+  - Replace the "new Fragment()" above with your own fragment.
   
   - If you're in activity, use "getSupportFragmentManager()" to be the target fragmentManager. 
   
