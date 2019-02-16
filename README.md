@@ -84,7 +84,7 @@
                     .commit();
     ```
     
-  - **Also, you can initialize your tabLayout and viewPager at first**
+  - **Also, you can initialize your tabLayout and viewPager before using "TabPagerManager"**
   
     e.g.
     
@@ -100,6 +100,6 @@
     ```
     TabPagerManager.with(fragmentManager)
                     .setTabPager(tabLayout, viewPager)
-                    .add("tabName_1", new Fragment())
+                    .add("tabName", new Fragment())
                     .commit();
     ```
