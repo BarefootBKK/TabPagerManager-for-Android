@@ -23,9 +23,9 @@
   
   - replace the "new Fragment()" above with your own fragment.
   
-  - If you're in activity, use getSupportFragmentManager() to be the target fragmentManager. 
+  - If you're in activity, use "getSupportFragmentManager()" to be the target fragmentManager. 
   
-  - If you're in fragment, use getChildFragmentManager().
+  - If you're in fragment, use "getChildFragmentManager()".
 
 
 ### ***More***
