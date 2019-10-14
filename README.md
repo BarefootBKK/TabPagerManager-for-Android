@@ -7,7 +7,7 @@
   Download the ```TabPagerManager.java```(*[click here](https://codeload.github.com/BarefootBKK/TabPagerManager-for-Android/zip/master)*) file and copy it to your Android project.
   
   
-## Step 2. How to use it ?
+## Step 2. How to start ?
 
 
 ### ***General***
@@ -40,11 +40,11 @@
   
     - *EQUAL_TAB_CENTER*
   
-    > <img src="https://img-blog.csdnimg.cn/20190210020150447.png" width="350" alt="EQUAL_TAB_CENTER" />
+    > <img src="https://img-blog.csdnimg.cn/20190210020209802.jpg" width="350" alt="EQUAL_TAB_CENTER" />
   
     - *EQUAL_TAB_FILL*
     
-    > <img src="https://camo.githubusercontent.com/f3c4dacabc4d8eb49f38dbfec2020be0cb6725fe/687474703a2f2f7468797273692e636f6d2f74362f3636392f3135343937333035393178323839303137343039342e706e67" width="350" alt="EQUAL_TAB_FILL" />
+    > <img src="https://img-blog.csdnimg.cn/20190210020227637.png" width="350" alt="EQUAL_TAB_FILL" />
   
   
  - **Use it in your code**
